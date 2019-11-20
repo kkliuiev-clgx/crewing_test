@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "c87b96ac-de98-41d1-84d3-c06770ea440f",
+		"name": "telegram message",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Message to telegram",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.telegram.org/bot1023208195:AAG38wbWLeIhaCkl4v8-I2fzmVrR2RBYplU/sendMessage?chat_id=-1001201529535&text=Tests failed!",
+					"protocol": "https",
+					"host": [
+						"api",
+						"telegram",
+						"org"
+					],
+					"path": [
+						"bot1023208195:AAG38wbWLeIhaCkl4v8-I2fzmVrR2RBYplU",
+						"sendMessage"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "-1001201529535"
+						},
+						{
+							"key": "text",
+							"value": "Tests failed!"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
